@@ -1,19 +1,20 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+# Tags for the blog
+system-analysis:
+  description: Posts about system analysis methodologies and approaches
+  permalink: /blog/tags/system-analysis
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+requirements:
+  description: Posts about requirements gathering and analysis
+  permalink: /blog/tags/requirements
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+modelling:
+  description: Posts about system modeling techniques
+  permalink: /blog/tags/modelling
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+tools:
+  description: Posts about system analysis tools and software
+  permalink: /blog/tags/tools
+
+best-practices:
+  description: Posts about system analysis best practices
+  permalink: /blog/tags/best-practices

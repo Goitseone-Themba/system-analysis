@@ -1,3 +1,15 @@
+# Authors of the blog
+goitseone:
+  name: Goitseone Themba
+  title: System Analysis Expert
+  url: https://github.com/goitseone
+  image_url: https://github.com/goitseone.png
+  bio: >
+    Passionate about system analysis, software architecture, and helping teams build better systems.
+  twitter: https://twitter.com/goitseone
+  github: https://github.com/goitseone
+  linkedin: https://linkedin.com/in/goitseone
+
 yangshun:
   name: Yangshun Tay
   title: Front End Engineer @ Facebook
