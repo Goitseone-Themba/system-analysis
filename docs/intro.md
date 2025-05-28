@@ -1,28 +1,56 @@
 ---
-sidebar_position: 1
+sidebar_label: 'System Analysis Approaches'
+sidebar_position: 2
 ---
-# Intro to System Analysis
 
-## Definition
+# System Analysis Approaches
 
-Is the process of studying and understanding an existing system to identify its,
-- Strengths,
-- Weaknesses, and
-- Requirements,
+## Traditional Approaches
 
-in order to improve it or develop a new system. This involves examining the flow of information, 
-user needs, and business objectives to ensure that a system meets its intended purpose.
+### Structured Analysis (SA)
+- **Definition**: Systematic approach breaking systems into manageable components
+- **Key Elements**:
+  - Decomposition (breaking systems into parts)
+  - Modeling techniques (DFDs, ERDs)
+  - Top-down approach
+  - Data flow analysis
 
-## Importance of System Analysis
+### Waterfall Model
+- **The OG sequential approach** - perfect when requirements are set in stone
+- **Phases**:
+  1. Requirements → 2. Design → 3. Implementation → 4. Verification → 5. Maintenance
+- **When to use**: Small projects with clear requirements (like building a calculator)
+- **Pros**: Simple, clear milestones, easy to manage
+- **Cons**: Inflexible - changing requirements will wreck your timeline
 
-- **Improves Effeciency**: It helps identify inefficiencies and optimize processes.
-- **Enhances Decision Making**: It provides data driven insights for better decision making.
-- **Reduces Costs**: It detects redundancies and minimizes unnecessary expenditures.
-- **Ensures User Satisfaction**: It focuses on meeting user needs and requirements.
-- **Facilitates System Integration**: It ensures that different system components are compatible. 
-- **Supports Business Growth**: It helps organizations adapt to evolving business environments.
+## Modern Approaches
 
-## System Analyst
+### Object-Oriented Analysis (OOA)
+- **Think in objects** - just like Java/Python does
+- **UML diagrams** are your best friends here
+- **VS Structured Analysis**:
+  - SA: "Here's data and here's how we process it"
+  - OOA: "Here's objects that contain data AND behavior"
 
-A **system analyst** acts as a bridge between business needs and technology solutions.They play 
-a crucial role in designing, developing and implementing information systems.
+### Agile Analysis
+- **For when requirements change faster than your coffee gets cold**
+- Key features:
+  - Sprints (2-4 week development cycles)
+  - Daily standups
+  - Continuous feedback
+- **Pros**: Adaptable, customer-focused, faster delivery
+- **Cons**: Needs disciplined teams, documentation can suffer
+
+### Rapid Application Development (RAD)
+- **"Build fast, fail fast, fix fast"** mentality
+- **Phases**:
+  1. Business modeling → 2. Data modeling → 3. Process modeling → 4. App generation → 5. Testing
+- **Perfect for**: Prototypes and MVPs
+
+## Battle Royale: Traditional vs Modern
+| Factor        | Traditional              | Modern                   |
+|---------------|--------------------------|--------------------------|
+| Flexibility   | Rigid                   | Adaptable                |
+| Documentation | Heavy                   | Minimal                  |
+| Speed         | Slow                    | Fast                     |
+| Best for      | Stable requirements     | Dynamic environments     |
